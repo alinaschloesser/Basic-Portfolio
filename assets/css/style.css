@@ -36,13 +36,23 @@ a {
   color: #d21034;
 }
 
+/*ul {
+      text-align: center;
+      font-size: 35px;
+      /* Give an element a solid border. 
+      border-style: solid;
+      /* Render the border 5 pixels thick. 
+      border-width: 5px;
+      /* Include bullets in the content flow. 
+      /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp 
+      list-style-position: inside;
+    }*/
 .container {
   width: 1024px;
   margin: 0 auto;
 }
 
 #main-bio,
-#contact-info,
 #bio-image {
   float: left;
 }
@@ -52,6 +62,7 @@ a {
 }
 
 #contact-info {
+  float: right;
   width: 30%;
 }
 
