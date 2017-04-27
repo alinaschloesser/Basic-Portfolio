@@ -11,45 +11,67 @@
 <body>
 
   <!-- Site Header -->
-  <header>
-    <!-- h1: The most important headline -->
-    <h1>Student Bio</h1>
+  <header class="header">
+    <box class="nameBox heading">Alina Schloesser</box>  <!-- h1: The most important headline -->
+    <ul class="navBar">
+
+      <li><a href="contact.html">Contact</a></li><li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <a href="index.html">About</a></li>
+
+    </ul>
+
   </header>
 
-  <div class= "container">
+  <div class= "container1">
 
     <!-- Section 1: Bio -->
-    <section id ="main-bio">
+    <section id ="aboutMe">
       <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
-      <h2>Alina Schloesser</h2>
+      
+      <h1 class="heading">About Me</h1>
 
       <!-- Image with link -->
-      <img id = "bio-image" src="assets/images/img_job.jpg" alt="Alina Schloesser">
+      <img id = "bioImage" src="assets/images/img_job.jpg" alt="Alina Schloesser">
 
       <!-- Paragraph with embedded link -->
       <p>
         "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
       </p>
     </section>
+    </div>
 
     <!-- Section 2: Contact Info -->
-    <section>
+   <div class="container2">
+    <section id="contactInfo">
 
-      <!-- h2: Tier-2 Headline -->
-      <h2 id="contact-info">Contact Info</h2>
+      <aside>
+        <!-- h2: Tier-2 Headline -->
+        <h2 class="heading">Connect with Me</h2>
 
-      <!-- Unordered list -->
-      <ul>
-        <li><strong>Email:</strong> <a href="mailto:alina.m.schloesser@gmail.com">alina.m.schloesser@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
+        <!-- Unordered list -->
+        <ul>
+          <li> 
+            <a href="mailto:alina.m.schloesser@gmail.com" target="_blank"><img border="0" alt="github" src="assets/images/mail.png" width="45" height="45"></a>
+          </li>
+          <li>
+            <a href="https://github.com/alinaschloesser" target="_blank"><img border="0" alt="github" src="assets/images/github.png" width="45" height="45"></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/alina-schloesser-9809463a/" target="_blank"><img border="0" alt="linkedin" src="assets/images/linkedin.png" width="45" height="45"></a>
+          </li>
 
+      
+      </aside>
+    
     </section>
-  </div>
 
+    </div>
+      
+  <footer>Copyright 2017 Alina Schloesser</footer>
 
 
 </body>
 
 </html>
+
