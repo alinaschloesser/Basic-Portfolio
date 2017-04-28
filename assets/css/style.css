@@ -49,7 +49,6 @@ body{
 	border: 1px solid #cccccc;
 	width: 30%;
    	text-decoration: none;
-	
     left: 100px;
     
 	;
@@ -66,7 +65,8 @@ body{
     
     color:  #777777;
     text-align: center;
-    padding: 50px 50px 0px 6px;
+    margin:50px 25px 0px 6px;
+    padding: 3px 20px 0px 20px;
     text-decoration: none;
     position: relative;
 
@@ -213,124 +213,15 @@ input{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.nameBox{
-	background-color: #4aaaa5; 
-	float: left;
-	display: inline;
-	font-size: 150%;
-	font-weight: bold;
-	color: #ffffff;
-	text-align: center;
-	padding: 20px 20px;
-	margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 3px;
-	text-decoration: none;
-	position: relative;
-    left: 100px;
-    top:10px;
-}
-
-.navbar {
-    overflow: hidden;
-    padding-bottom:30px 
-    
-    top: 0; /* Position the navbar at the top of the page */
-    /*width: 100%; /* Full width 
-}
-
-/* Links inside the navbar */
-/*.navbar a {
-    float: right;
-    display: inline;
-    color:  #777777;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    position: relative;
-}
-
-header {
-  background-color: #ffffff;
-
-}
-
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-  background: #efeee7;
+.stuff{
+	border-right: 1px solid #dddddd;
 }
 
 
 
-h1 {
-  padding: 20px 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-  color: #eee;
-  text-align: center;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-a {
-  color: #d21034;
-}
 
 
-.container {
-  width: 1024px;
-  margin: 0 auto;
-}
 
-#main-bio,
-#bio-image {
-  float: left;
-}
 
-#main-bio {
-  width: 70%;
-}
 
-#contact-info {
-  float: right;
-  width: 30%;
-}
 
-#bio-image {
-  width: 220px;
-  height: 200px;
-  margin-right: 20px;
-  border-radius: 20px;
-}
